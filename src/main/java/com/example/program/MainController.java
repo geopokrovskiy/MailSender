@@ -23,6 +23,7 @@ public class MainController {
 
 
     private void initializeTable(){
+        this.tableUser.setItems(null);
         TableColumn<User, Integer> idCol = new TableColumn<User, Integer>("User Id");
         TableColumn<User, String> dateCol = new TableColumn<User, String>("Registration Date");
         TableColumn<User, String> emailCol = new TableColumn<User, String>("Email Address");
