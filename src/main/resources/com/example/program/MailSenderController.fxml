@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.program.MailSenderController"
+            stylesheets="@bootstrap3.css">
+    <children>
+        <TextField fx:id="mailObject" layoutX="105.0" layoutY="79.0" prefHeight="25.0" prefWidth="391.0"/>
+        <Label layoutX="266.0" layoutY="44.0" text="Mail: Object" styleClass="primary">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <Label layoutX="268.0" layoutY="140.0" text="Mail: Text" styleClass="primary">
+            <font>
+                <Font name="System Bold" size="12.0"/>
+            </font>
+        </Label>
+        <TextArea fx:id="mailText" layoutX="86.0" layoutY="178.0" prefHeight="143.0" prefWidth="442.0"/>
+        <Button fx:id="sendMailButton" layoutX="266.0" layoutY="344.0" mnemonicParsing="false" onAction="#sendMail"
+                text="Send Mail" styleClass="primary"/>
+    </children>
+</AnchorPane>

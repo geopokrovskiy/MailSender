@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="430.0" prefWidth="764.0" xmlns="http://javafx.com/javafx/17.0.2-ea"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.program.MainController" stylesheets="@bootstrap3.css">
+    <children>
+        <MenuBar layoutX="2.0" layoutY="3.0">
+            <menus>
+                <Menu fx:id="openFileMenu" mnemonicParsing="false" onAction="#openFile" text="File">
+                    <items>
+                        <MenuItem mnemonicParsing="false" text="Open..."/>
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <TableView fx:id="tableUser" layoutX="78.0" layoutY="43.0" prefHeight="359.0" prefWidth="659.0" styleClass="primary"/>
+    </children>
+</AnchorPane>
