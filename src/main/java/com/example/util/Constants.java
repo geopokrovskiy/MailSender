@@ -5,6 +5,6 @@ public class Constants {
 
     public static final String password = ""; // a password for external application (use settings of your email address) should be here
 
-    public static final String email = "georgy.pokrovskiy@mail.ru";
+    public static final String email = "georgy.pokrovskiy@mail.ru"; // a @mail.ru address for message sending should be created and used
 }
 
